@@ -1,0 +1,11 @@
+PID 1 Thread 1 PAGE FAULT: page 0 loaded into frame 0
+PID 1 Thread 1 Address 0x43 Page 0 Frame 0 Access R TLB_MISS
+PID 2 Thread 1 PAGE FAULT: page 2 loaded into frame 1
+PID 2 Thread 1 Address 0x210 Page 2 Frame 1 Access R TLB_MISS
+PID 3 Thread 1 PAGE FAULT: page 15 loaded into frame 2
+PID 3 Thread 1 Address 0xf0f Page 15 Frame 2 Access R TLB_MISS
+PID 1 Thread 2 Address 0xa1 Page 0 Frame 0 Access W TLB_HIT
+PID 2 Thread 2 Address 0x213 Page 2 Frame 1 Access R TLB_HIT
+PID 3 Thread 2 PAGE FAULT: page 1 loaded into frame 3
+PID 3 Thread 2 Address 0x100 Page 1 Frame 3 Access W TLB_MISS
+PID 1 Thread 1 Address 0xb0 Page 0 Frame 0 Access W TLB_HIT
